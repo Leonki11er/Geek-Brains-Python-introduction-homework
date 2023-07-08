@@ -1,4 +1,3 @@
-song = 'кто-ходит-в-гости-по-утрам тот-поступает-мудро'
 def rhythm_check(crambo_line):
     phrases = crambo_line.split()
 
@@ -7,5 +6,7 @@ def rhythm_check(crambo_line):
     if len(set(sum_list)) == 1 :
         return "Парам пам-пам"  
     else: return "Пам парам"
- 
+
+
+song = 'кто-ходит-в-гости-по-утрам тот-поступает-мудро'
 print(rhythm_check(song))
